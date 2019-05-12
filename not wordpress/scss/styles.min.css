@@ -124,23 +124,30 @@ section {
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
 header.masthead {
-  padding-top: calc(rem + 72px);
-  padding-bottom: 8rem;
+  padding-top: calc(12rem + 72px);
+  padding-bottom: 10rem;
   background: url("../img/headerBackground.jpg"); }
   header.masthead h1 {
     font-size: 3rem;
-    line-height: 3rem; }
+    line-height: 3rem;
+    text-shadow: 1px 1px 2px black;
+    font-family: sarah-script, sans-serif;
+    font-weight: 400;
+    font-style: normal; }
   header.masthead h2 {
     font-size: 1.3rem;
-    font-family: "Lato"; }
-  header.masthead .profilePicture {
-    overflow: hidden;
-    margin-top: 4em; }
+    font-family: "Lato";
+    text-shadow: 1px 1px 2px black; }
+  header.masthead .headerIcon {
+    text-shadow: 1px 1px 2px black; }
+
+.aboutUsImage {
+  width: 100%; }
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem; }
+    padding-top: calc(10rem + 106px);
+    padding-bottom: 10rem; }
     header.masthead h1 {
       font-size: 4.75em;
       line-height: 4rem; }
