@@ -1,6 +1,7 @@
 header.masthead {
-  padding-top: calc(6rem + 72px);
-  padding-bottom: 6rem;
+  padding-top: calc(rem + 72px);
+  padding-bottom: 8rem;
+  background: url('../img/headerBackground.jpg');
   h1 {
     font-size: 3rem;
     line-height: 3rem;
@@ -10,8 +11,8 @@ header.masthead {
     @include body-font;
   }
   .profilePicture {
-    border-radius: 50%;
     overflow: hidden;
+    margin-top: 4em;
   }
 }
 @media (min-width: 992px) {
@@ -25,6 +26,5 @@ header.masthead {
     h2 {
       font-size: 1.75em;
     }
-
   }
 }
