@@ -126,7 +126,9 @@ section {
 header.masthead {
   padding-top: calc(12rem + 72px);
   padding-bottom: 10rem;
-  background: url("../img/headerBackgroundFaded.jpg"); }
+  background: url("../img/littlemoreBarbersOpt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
   header.masthead h1 {
     font-size: 3rem;
     line-height: 3rem;
